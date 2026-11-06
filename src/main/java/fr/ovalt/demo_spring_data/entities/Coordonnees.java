@@ -21,5 +21,6 @@ public class Coordonnees {
     private String telephone;
 
     @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "id_individu")
     private Individu individu;
 }

@@ -20,6 +20,8 @@ public class Animal {
     private String nom;
     private String cri;
 
+    /*
     @OneToOne(mappedBy = "animalDeCompagnie") // Pour éviter de créer 2 jointures identiques
     private Individu maitre;
+     */
 }
